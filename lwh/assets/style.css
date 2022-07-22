@@ -1,0 +1,102 @@
+nav#navbar {
+  background-color: #ddd;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#content a {
+  margin-right: 10px;
+}
+img.postAuthor {
+  width: 30px;
+  height: auto;
+  border-radius: 15px;
+}
+span.authorName {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+span.dot {
+  color: red;
+  margin: 0 5px 0 5px;
+  font-size: 18px;
+}
+img.postThumbnail {
+  margin: 15px 15px 15px 0px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #ddd;
+  padding: 15px 0 5px 0;
+}
+
+
+
+
+ul#socialIcon {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+#sidebarAuthor{
+  margin: 140px 0 20px 0;
+}
+
+#popularPosts{
+  margin: 50px 0 50px 0;
+}
+#popularPosts div {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+#popularPosts img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+
+#popularPosts h3 {
+  display: inline;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#popularPosts h2 {
+  margin-bottom: 40px;
+}
+
+#popularPosts div {
+  margin: 15px 0 0px 0;
+}
+
+#tagCloud h2 {
+  margin: 0 0 40px 0;
+}
+
+#tagCloud ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#tagCloud li {
+  margin: 0px 5px 0 5px;
+}
+
+#tagCloud a {
+  color: #3a3131;
+  text-decoration: none;
+}
+#tagCloud a:hover {
+  color: #000;
+}
